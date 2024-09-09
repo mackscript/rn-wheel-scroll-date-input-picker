@@ -52,3 +52,13 @@ const App = () => {
 
 export default App;
 ```
+
+## Props
+
+| Prop Name     | Type       | Default      | Description                                                                                                       |
+| ------------- | ---------- | ------------ | ----------------------------------------------------------------------------------------------------------------- |
+| `lastYear`    | `string`   | `"1900"`     | The minimum year limit that can be selected in the date picker.                                                   |
+| `defaultDate` | `Date`     | `new Date()` | The default date that will be selected when the date picker opens. Pass a JavaScript `Date` object.               |
+| `visible`     | `boolean`  | `false`      | Controls the visibility of the date picker modal. Set `true` to show the modal, and `false` to hide it.           |
+| `closeModal`  | `function` | `null`       | Callback function that closes the modal. Typically passed as a function to hide the modal.                        |
+| `onSelected`  | `function` | `null`       | Callback function triggered when a date is selected. The selected date is passed as a parameter to this function. |
