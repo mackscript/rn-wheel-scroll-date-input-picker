@@ -1,6 +1,6 @@
 {
   "name": "rn-wheel-scroll-date-input-picker",
-  "version": "1.1.5",
+  "version": "2.0.0",
   "description": "A simple and customizable scrollable date picker for React Native, allowing users to input or select dates with a custom text field.",
   "main": "index.js",
   "repository": {
