@@ -1,6 +1,8 @@
 # rn-wheel-scroll-date-input-picker
 
-A simple and customizable scrollable date picker for React Native, allowing users to input or select dates with a custom text field.
+A sleek, scrollable date picker for React Native that allows users to easily select or input dates through a customizable text input field. Designed for flexibility and seamless integration, with options to personalize colors and styles to fit any app's design.
+
+![rn-wheel-scroll-date-input-picker](https://your-image-hosting-service.com/path-to-your-gif.gif)
 
 ## Installation
 
@@ -55,10 +57,13 @@ export default App;
 
 ## Props
 
-| Prop Name     | Type       | Default      | Description                                                                                                       |
-| ------------- | ---------- | ------------ | ----------------------------------------------------------------------------------------------------------------- |
-| `lastYear`    | `string`   | `"1900"`     | The minimum year limit that can be selected in the date picker.                                                   |
-| `defaultDate` | `Date`     | `new Date()` | The default date that will be selected when the date picker opens. Pass a JavaScript `Date` object.               |
-| `visible`     | `boolean`  | `false`      | Controls the visibility of the date picker modal. Set `true` to show the modal, and `false` to hide it.           |
-| `closeModal`  | `function` | `null`       | Callback function that closes the modal. Typically passed as a function to hide the modal.                        |
-| `onSelected`  | `function` | `null`       | Callback function triggered when a date is selected. The selected date is passed as a parameter to this function. |
+| Prop Name              | Type       | Default      | Description                                                                                                       |
+| ---------------------- | ---------- | ------------ | ----------------------------------------------------------------------------------------------------------------- |
+| `lastYear`             | `string`   | `"1900"`     | The minimum year limit that can be selected in the date picker.                                                   |
+| `defaultDate`          | `Date`     | `new Date()` | The default date that will be selected when the date picker opens. Pass a JavaScript `Date` object.               |
+| `visible`              | `boolean`  | `false`      | Controls the visibility of the date picker modal. Set `true` to show the modal, and `false` to hide it.           |
+| `closeModal`           | `function` | `null`       | Callback function that closes the modal. Typically passed as a function to hide the modal.                        |
+| `onSelected`           | `function` | `null`       | Callback function triggered when a date is selected. The selected date is passed as a parameter to this function. |
+| `btnColor`             | `string`   | `#000`       | Defines the background color of the action button (e.g., "Confirm" or "Cancel"). Accepts a valid color string.    |
+| `activeTextColor`      | `string`   | `#000`       | Defines the text color for the currently selected date. Accepts a valid color string.                             |
+| `highlightBorderWidth` | `number`   | `1`          | Specifies the width of the border used to highlight the selected date. Accepts a number value for pixel width.    |
