@@ -2,7 +2,7 @@
 
 A sleek, scrollable date picker for React Native that allows users to easily select or input dates through a customizable text input field. Designed for flexibility and seamless integration, with options to personalize colors and styles to fit any app's design.
 
-![rn-wheel-scroll-date-input-picker](https://your-image-hosting-service.com/path-to-your-gif.gif)
+![rn-wheel-scroll-date-input-picker](https://raw.githubusercontent.com/mackscript/rn-wheel-scroll-date-input-picker/main/Demo.gif)
 
 ## Installation
 
